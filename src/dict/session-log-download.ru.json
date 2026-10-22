@@ -1,0 +1,12 @@
+{
+  "header.more": "Другие действия",
+  "menu.download": "Скачать журнал сеанса",
+  "menu.feedback": "Отзыв",
+  "dialog.preparingTitle": "Экспорт сеанса",
+  "dialog.preparingDescription": "Подготовка ZIP-архива с этим сеансом, его подсеансами и вложениями.",
+  "dialog.successTitle": "Загрузка сеанса началась",
+  "dialog.successDescription": "Браузер скачивает ZIP-архив сеанса.",
+  "dialog.errorTitle": "Не удалось экспортировать сеанс",
+  "dialog.close": "Закрыть",
+  "dialog.commandFailed": "Не удалось запустить экспорт сеанса."
+}

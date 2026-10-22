@@ -1,0 +1,19 @@
+{
+  "chip.label": "План",
+  "preview.title": "План",
+  "preview.document": "План · Markdown",
+  "preview.action": "Открыть",
+  "preview.open": "Открыть план в боковой панели",
+  "preview.full": "Показать весь план",
+  "preview.openNamed": "Открыть план: {title}",
+  "preview.loading": "Загрузка плана…",
+  "preview.failed": "Не удалось загрузить план",
+  "preview.invalidAddress": "Неверный адрес плана",
+  "preview.historyUnavailable": "История сеанса недоступна",
+  "preview.notFound": "Этот план не найден",
+  "preview.unavailable": "Предпросмотр плана недоступен",
+  "preview.expired": "Срок этого временного предпросмотра плана истёк. Откройте его снова из карточки ожидающей проверки.",
+  "chip.on.aria": "Режим плана включён, нажмите, чтобы выключить",
+  "chip.on.title": "Режим плана включён — нажмите, чтобы выключить (/plan off)",
+  "chip.exitFailed": "Не удалось выйти из режима плана"
+}
