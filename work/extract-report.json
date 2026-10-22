@@ -1,0 +1,574 @@
+[
+  {
+    "pkg": "dsh-api-job-controller",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-api-remote-access",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-api-remotes",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-api-session-controller",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-api-terminal-controller",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-api-workspace-controller",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-api-workspace-files",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-client-file-upload",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-client-hmr",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-client-locale",
+    "status": "ok",
+    "ns": [
+      "common",
+      "common",
+      "settings.locale",
+      "settings.locale"
+    ],
+    "keys": 84
+  },
+  {
+    "pkg": "dsh-client-modules",
+    "status": "apply-error",
+    "ns": [],
+    "keys": 0,
+    "error": "client-modules: the Loader has no client module system"
+  },
+  {
+    "pkg": "dsh-client-product-analytics",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-client-resources",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-client-shortcuts",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-client-ui-agent-preset",
+    "status": "ok",
+    "ns": [
+      "settings.agentPreset"
+    ],
+    "keys": 47
+  },
+  {
+    "pkg": "dsh-client-ui-approval",
+    "status": "ok",
+    "ns": [
+      "approval"
+    ],
+    "keys": 5
+  },
+  {
+    "pkg": "dsh-client-ui-attachment",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-client-ui-brand-official",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-client-ui-chat",
+    "status": "ok",
+    "ns": [
+      "chat"
+    ],
+    "keys": 191
+  },
+  {
+    "pkg": "dsh-client-ui-commands",
+    "status": "ok",
+    "ns": [
+      "command"
+    ],
+    "keys": 28
+  },
+  {
+    "pkg": "dsh-client-ui-conversation",
+    "status": "ok",
+    "ns": [
+      "conversation"
+    ],
+    "keys": 373
+  },
+  {
+    "pkg": "dsh-client-ui-cordis",
+    "status": "ok",
+    "ns": [
+      "cordis"
+    ],
+    "keys": 51
+  },
+  {
+    "pkg": "dsh-client-ui-deepseek-model-label-1017",
+    "status": "ok",
+    "ns": [
+      "deepseek-model-label-1017"
+    ],
+    "keys": 1
+  },
+  {
+    "pkg": "dsh-client-ui-deliverables",
+    "status": "ok",
+    "ns": [
+      "deliverables"
+    ],
+    "keys": 60
+  },
+  {
+    "pkg": "dsh-client-ui-directory-picker-browse",
+    "status": "ok",
+    "ns": [
+      "directory-browser",
+      "directory-browser"
+    ],
+    "keys": 26
+  },
+  {
+    "pkg": "dsh-client-ui-directory-picker-native",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-client-ui-goal",
+    "status": "ok",
+    "ns": [
+      "goal"
+    ],
+    "keys": 12
+  },
+  {
+    "pkg": "dsh-client-ui-input-trigger",
+    "status": "ok",
+    "ns": [
+      "slash.menu"
+    ],
+    "keys": 9
+  },
+  {
+    "pkg": "dsh-client-ui-jobs",
+    "status": "ok",
+    "ns": [
+      "job"
+    ],
+    "keys": 40
+  },
+  {
+    "pkg": "dsh-client-ui-layout",
+    "status": "ok",
+    "ns": [
+      "shortcuts.layout"
+    ],
+    "keys": 1
+  },
+  {
+    "pkg": "dsh-client-ui-message-feedback",
+    "status": "ok",
+    "ns": [
+      "feedback"
+    ],
+    "keys": 20
+  },
+  {
+    "pkg": "dsh-client-ui-model-selection",
+    "status": "ok",
+    "ns": [
+      "model"
+    ],
+    "keys": 23
+  },
+  {
+    "pkg": "dsh-client-ui-open-in-app",
+    "status": "ok",
+    "ns": [
+      "open-in-app"
+    ],
+    "keys": 45
+  },
+  {
+    "pkg": "dsh-client-ui-permission-presets",
+    "status": "ok",
+    "ns": [
+      "permission.access"
+    ],
+    "keys": 17,
+    "error": "this.ctx.remote.permissionPresets.catalog(...).then is not a function"
+  },
+  {
+    "pkg": "dsh-client-ui-plan",
+    "status": "ok",
+    "ns": [
+      "plan"
+    ],
+    "keys": 17
+  },
+  {
+    "pkg": "dsh-client-ui-plugin-manager",
+    "status": "ok",
+    "ns": [
+      "pluginManager"
+    ],
+    "keys": 221
+  },
+  {
+    "pkg": "dsh-client-ui-plugin-market",
+    "status": "ok",
+    "ns": [
+      "pluginMarket"
+    ],
+    "keys": 78
+  },
+  {
+    "pkg": "dsh-client-ui-reference",
+    "status": "ok",
+    "ns": [
+      "reference"
+    ],
+    "keys": 15
+  },
+  {
+    "pkg": "dsh-client-ui-renderer",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-client-ui-schedule",
+    "status": "ok",
+    "ns": [
+      "schedule.catalog",
+      "schedule.manager"
+    ],
+    "keys": 258
+  },
+  {
+    "pkg": "dsh-client-ui-secret-mask",
+    "status": "ok",
+    "ns": [
+      "secretMask"
+    ],
+    "keys": 2
+  },
+  {
+    "pkg": "dsh-client-ui-session",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-client-ui-settings",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-client-ui-settings-account",
+    "status": "ok",
+    "ns": [
+      "settings.account"
+    ],
+    "keys": 94
+  },
+  {
+    "pkg": "dsh-client-ui-settings-agent-loop",
+    "status": "ok",
+    "ns": [
+      "settings.agentLoop"
+    ],
+    "keys": 12
+  },
+  {
+    "pkg": "dsh-client-ui-settings-general",
+    "status": "ok",
+    "ns": [
+      "settings"
+    ],
+    "keys": 41
+  },
+  {
+    "pkg": "dsh-client-ui-settings-models",
+    "status": "ok",
+    "ns": [
+      "settings.models"
+    ],
+    "keys": 134
+  },
+  {
+    "pkg": "dsh-client-ui-settings-plugin-inventory",
+    "status": "ok",
+    "ns": [
+      "settings.pluginInventory"
+    ],
+    "keys": 37
+  },
+  {
+    "pkg": "dsh-client-ui-settings-plugins",
+    "status": "ok",
+    "ns": [
+      "settings.plugins"
+    ],
+    "keys": 5
+  },
+  {
+    "pkg": "dsh-client-ui-settings-session-log",
+    "status": "ok",
+    "ns": [
+      "settings.sessionLog"
+    ],
+    "keys": 4
+  },
+  {
+    "pkg": "dsh-client-ui-settings-shell",
+    "status": "ok",
+    "ns": [
+      "settings.shell"
+    ],
+    "keys": 14
+  },
+  {
+    "pkg": "dsh-client-ui-settings-subagent",
+    "status": "ok",
+    "ns": [
+      "settings.subagent"
+    ],
+    "keys": 35
+  },
+  {
+    "pkg": "dsh-client-ui-settings-web-search",
+    "status": "ok",
+    "ns": [
+      "settings.webSearch"
+    ],
+    "keys": 27
+  },
+  {
+    "pkg": "dsh-client-ui-shortcuts",
+    "status": "ok",
+    "ns": [
+      "shortcuts"
+    ],
+    "keys": 56
+  },
+  {
+    "pkg": "dsh-client-ui-sidebar",
+    "status": "ok",
+    "ns": [
+      "sidebar"
+    ],
+    "keys": 5
+  },
+  {
+    "pkg": "dsh-client-ui-sidebar-browser",
+    "status": "ok",
+    "ns": [
+      "sidebarBrowser"
+    ],
+    "keys": 26
+  },
+  {
+    "pkg": "dsh-client-ui-sidebar-documentpreview",
+    "status": "ok",
+    "ns": [
+      "sidebarDocumentPreview",
+      "documentMarkdown",
+      "documentHtml",
+      "sidebarImage",
+      "sidebarPdf",
+      "sidebarOffice",
+      "sidebarExcel",
+      "sidebarCodePreview"
+    ],
+    "keys": 89
+  },
+  {
+    "pkg": "dsh-client-ui-sidebar-files",
+    "status": "ok",
+    "ns": [
+      "sidebarFiles"
+    ],
+    "keys": 17
+  },
+  {
+    "pkg": "dsh-client-ui-sidebar-right",
+    "status": "ok",
+    "ns": [
+      "sidebarRight"
+    ],
+    "keys": 34
+  },
+  {
+    "pkg": "dsh-client-ui-sidebar-terminal",
+    "status": "ok",
+    "ns": [
+      "sidebarTerminal"
+    ],
+    "keys": 28
+  },
+  {
+    "pkg": "dsh-client-ui-skill",
+    "status": "ok",
+    "ns": [
+      "skill"
+    ],
+    "keys": 8
+  },
+  {
+    "pkg": "dsh-client-ui-subagent",
+    "status": "ok",
+    "ns": [
+      "subagent"
+    ],
+    "keys": 41
+  },
+  {
+    "pkg": "dsh-client-ui-theme",
+    "status": "ok",
+    "ns": [
+      "settings.theme"
+    ],
+    "keys": 25,
+    "error": "theme registry lost \"\""
+  },
+  {
+    "pkg": "dsh-client-ui-tool",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-client-ui-trajectory",
+    "status": "ok",
+    "ns": [
+      "trajectory"
+    ],
+    "keys": 192
+  },
+  {
+    "pkg": "dsh-client-ui-user-questions",
+    "status": "ok",
+    "ns": [
+      "question"
+    ],
+    "keys": 31
+  },
+  {
+    "pkg": "dsh-client-ui-workflow-run",
+    "status": "ok",
+    "ns": [
+      "workflowRun"
+    ],
+    "keys": 18
+  },
+  {
+    "pkg": "dsh-client-ui-workspace",
+    "status": "ok",
+    "ns": [
+      "workspace"
+    ],
+    "keys": 119
+  },
+  {
+    "pkg": "dsh-cordis-client-runner",
+    "status": "no-register",
+    "ns": [],
+    "keys": 0
+  },
+  {
+    "pkg": "dsh-experimental-client-ui-agent-team",
+    "status": "ok",
+    "ns": [
+      "agent-team"
+    ],
+    "keys": 25
+  },
+  {
+    "pkg": "dsh-experimental-client-ui-cot-translation",
+    "status": "ok",
+    "ns": [
+      "cotTranslation"
+    ],
+    "keys": 32
+  },
+  {
+    "pkg": "dsh-experimental-client-ui-voice-input",
+    "status": "ok",
+    "ns": [
+      "voice-input"
+    ],
+    "keys": 109
+  },
+  {
+    "pkg": "dsh-experimental-inspector",
+    "status": "apply-error",
+    "ns": [],
+    "keys": 0,
+    "error": "inspector protocol: Client bootstrap must be an object"
+  },
+  {
+    "pkg": "dsh-experimental-session-inspector",
+    "status": "ok",
+    "ns": [
+      "session-inspector"
+    ],
+    "keys": 52
+  },
+  {
+    "pkg": "dsh-session-log-export",
+    "status": "ok",
+    "ns": [
+      "session-log-download"
+    ],
+    "keys": 10
+  }
+]
