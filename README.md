@@ -22,7 +22,7 @@
 Штатно — через CLI (профиль `desktop`):
 
 ```
-dsh plugin --profile desktop add D:\AI\DSH\testwp\dsh-i18n-ru
+dsh plugin --profile desktop add {ПУТЬ}\dsh-i18n-ru
 ```
 
 или через GUI: «Плагины → Добавить плагин → Установить сторонний плагин» и
@@ -80,22 +80,11 @@ node src/smoke.mjs     # addLanguage + register в фейковом ctx
 
 ## Обновление после новой версии DSH
 
-Новые ключи автоматически показываются по-английски. Чтобы перевести дельту:
+Новые ключи автоматически показываются по-английски. Чтобы перевести разницу:
 
-1. Пере-извлечь инвентарь (скрипты в `D:\AI\DSH\testwp\tools\`):
-   - `node tools/extract.mjs` — распаковать клиентские пакеты из `app.asar`;
-   - `node tools/extract-dicts.mjs` — собрать `work/inventory.json`.
-2. Скопировать `work/inventory.json` в `src/inventory.json`.
-3. `node src/verify.mjs` покажет непереведённые namespace/ключи.
-4. Перевести дельту, собрать, проверить.
-
-## Известные ограничения
-
-- **Inline-карты** `{en, zh}`, которые рендерятся через
-  `LocaleRuntime.resolveText`, не переводятся: публичного API их регистрации
-  нет. Такие строки остаются английскими.
-- Содержимое диалога (сообщения, имена файлов, вывод терминала) и строки,
-  адресованные модели (описания инструментов, системный промпт), не
-  переводятся — это данные, а не хром интерфейса.
-- Ключи, добавленные новой версией DSH, по умолчанию английские (мягкая
-  деградация).
+1. Пере-извлечь инвентарь (скрипты в `dsh-i18n-ru\tools\`):
+   - `node dsh-i18n-ru/tools/extract.mjs` — распаковать клиентские пакеты из `app.asar`;
+   - `node dsh-i18n-ru/tools/extract-dicts.mjs` — собрать `dsh-i18n-ru/work/inventory.json`.
+2. Скопировать `dsh-i18n-ru/work/inventory.json` в `dsh-i18n-ru/src/inventory.json`.
+3. `node dsh-i18n-ru/src/verify.mjs` покажет непереведённые namespace/ключи.
+4. Перевести разницу, собрать, проверить.
