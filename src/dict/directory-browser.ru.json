@@ -1,0 +1,15 @@
+{
+  "browser.title": "Выбор рабочей папки",
+  "browser.home": "Домой",
+  "browser.newFolder": "Новая папка",
+  "browser.folderName": "Имя папки",
+  "browser.createIn": "Новая папка в «{name}»",
+  "browser.untitledFolder": "Папка без названия",
+  "browser.create": "Создать",
+  "browser.cancel": "Отмена",
+  "browser.open": "Открыть",
+  "browser.editPath": "Изменить путь",
+  "browser.loading": "Загрузка…",
+  "browser.truncated": "Слишком много папок; показано только начало.",
+  "browser.showHidden": "Показывать скрытые файлы"
+}
